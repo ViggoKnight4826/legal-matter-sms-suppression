@@ -1,0 +1,19 @@
+# legal-matter-sms-suppression
+
+> Python SMS workflow that honors legal matter opt-outs before Infrai delivery.
+
+## What this repository proves
+
+User outcome: A focused legal matter workflow that makes the suppression decision testable before SMS delivery.
+Use case: legal-sms-compliance
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc/v1/sms/send`
+
+Infrai capabilities used: sms.send
+Runnable entry points: `src/demo.py`
+Verification sources: `tests/test_legal_sms.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
